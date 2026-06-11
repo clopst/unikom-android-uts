@@ -1,9 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.AndroidUTS" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent_dark</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        <item name="colorSecondaryContainer">@color/accent</item>
+        <item name="colorOnSecondaryContainer">@color/text_primary</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
     </style>
 
     <style name="Theme.AndroidUTS" parent="Base.Theme.AndroidUTS" />
+
+    <!-- Bottom Nav Active Indicator Style -->
+    <style name="NavActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/accent</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/primary</item>
+    </style>
 </resources>

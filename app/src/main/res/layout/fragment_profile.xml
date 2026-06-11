@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/surface_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Profile Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/card_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/profile_header"
+                    android:textColor="@color/text_primary"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_bio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/profile_description"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    android:lineSpacingExtra="4dp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Contact Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_title"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Email Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_call"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:text="@string/contact_email"
+            android:textColor="@android:color/white"
+            app:backgroundTint="@color/primary"
+            app:icon="@drawable/ic_email"
+            app:iconTint="@android:color/white"
+            app:cornerRadius="12dp" />
+
+        <!-- Instagram Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_instagram"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:text="@string/contact_instagram"
+            android:textColor="@android:color/white"
+            app:backgroundTint="#E4405F"
+            app:icon="@drawable/ic_instagram"
+            app:iconTint="@android:color/white"
+            app:cornerRadius="12dp" />
+
+        <!-- GitHub Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_github"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:text="@string/contact_github"
+            android:textColor="@android:color/white"
+            app:backgroundTint="#24292E"
+            app:icon="@drawable/ic_github"
+            app:iconTint="@android:color/white"
+            app:cornerRadius="12dp" />
+
+        <!-- LinkedIn Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_linkedin"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:text="@string/contact_linkedin"
+            android:textColor="@android:color/white"
+            app:backgroundTint="#0A66C2"
+            app:icon="@drawable/ic_linkedin"
+            app:iconTint="@android:color/white"
+            app:cornerRadius="12dp" />
+
+        <!-- Find Me -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/find_me"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_find_me"
+            style="@style/Widget.Material3.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:text="@string/map_location"
+            android:textColor="@android:color/white"
+            app:backgroundTint="#4CAF50"
+            app:icon="@drawable/ic_location"
+            app:iconTint="@android:color/white"
+            app:cornerRadius="12dp" />
+
+        <!-- About -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_app"
+            android:textColor="@color/text_primary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_about"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/about_app"
+            android:textColor="@color/primary"
+            app:strokeColor="@color/primary"
+            app:cornerRadius="12dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -2,4 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand Colors -->
+    <color name="primary">#607456</color>
+    <color name="primary_dark">#4A5C42</color>
+    <color name="primary_light">#7D9472</color>
+    <color name="accent">#EEE0CC</color>
+    <color name="accent_dark">#C4B8A6</color>
+    <color name="accent_light">#F5EDE0</color>
+
+    <!-- Surface -->
+    <color name="surface_light">#F5F5F5</color>
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
 </resources>

@@ -1,3 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AndroidUTS</string>
+    <string name="app_name">Dimas Nurfauzi</string>
+    <string name="tagline">Creative Developer · Dreamer · Builder</string>
+
+    <!-- Splash -->
+    <string name="splash_brand">Dimas Nurfauzi</string>
+    <string name="splash_subtitle">Portfolio &amp; Daily Life</string>
+
+    <!-- Walkthrough -->
+    <string name="wt_title_1">Selamat Datang!</string>
+    <string name="wt_desc_1">Kenali lebih dekat sosok Dimas Nurfauzi — seseorang yang bersemangat dalam dunia teknologi.</string>
+    <string name="wt_title_2">Jelajahi Keseharian</string>
+    <string name="wt_desc_2">Lihat aktivitas harian, teman-teman, galeri, musik favorit, dan banyak lagi dalam satu aplikasi.</string>
+    <string name="wt_title_3">Mari Mulai!</string>
+    <string name="wt_desc_3">Semua konten diambil dari database lokal. Aplikasi ini dibuat dengan menggunakan Android Studio dan Kotlin.</string>
+    <string name="wt_skip">Lewati</string>
+    <string name="wt_next">Lanjut</string>
+    <string name="wt_finish">Mulai</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_daily">Daily</string>
+    <string name="nav_gallery">Gallery</string>
+    <string name="nav_music">Music</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Home -->
+    <string name="profile_name">Dimas Nurfauzi</string>
+    <string name="profile_role">Mahasiswa Teknik Informatika · UNIKOM</string>
+    <string name="profile_bio">Halo! Saya Dimas Nurfauzi, seorang Software Engineer dan mahasiswa Teknik Informatika di Universitas Komputer Indonesia.</string>
+    <string name="section_interest">Interest</string>
+    <string name="interest_hobby">Hobby</string>
+    <string name="interest_hobby_val">Binge Netflix, Gaming, Reading Books, Traveling</string>
+    <string name="interest_likes">Likes (Makes)</string>
+    <string name="interest_likes_val">Coffee, Music, Movie</string>
+    <string name="interest_dislikes">Dislikes (Mikes)</string>
+    <string name="interest_dislikes_val">Macet, Suara Bising, Cuaca Panas Ekstrem</string>
+    <string name="interest_passion">Interest</string>
+    <string name="interest_passion_val">Data and AI, Software Engineering</string>
+    <string name="interest_dream">Cita-cita</string>
+    <string name="interest_dream_val">Be a better programmer di tengah gempuran AI</string>
+
+    <!-- Daily Activity -->
+    <string name="daily_title">Daily Activity</string>
+    <string name="friends_title">Friends List</string>
+
+    <!-- Gallery -->
+    <string name="gallery_title">Gallery</string>
+
+    <!-- Music & Video -->
+    <string name="music_title">Favorite Music</string>
+    <string name="video_title">Favorite Video</string>
+    <string name="featured_spotify_url">https://open.spotify.com/playlist/37i9dQZF1DXcBWIGoYBM5M</string>
+    <string name="featured_youtube_url">https://www.youtube.com/watch?v=MmevIHYbJEk</string>
+    <string name="embed_spotify_id">37i9dQZF1DXcBWIGoYBM5M</string>
+    <string name="embed_youtube_id">MmevIHYbJEk</string>
+
+    <!-- Profile -->
+    <string name="profile_header">Lets connect</string>
+    <string name="profile_description">Mari berkenalan lebih jauh</string>
+    <string name="profile_title">Profile</string>
+    <string name="contact_title">Contact</string>
+    <string name="contact_call">Call Phone</string>
+    <string name="contact_email">Send Email</string>
+    <string name="contact_instagram">Instagram</string>
+    <string name="contact_github">GitHub</string>
+    <string name="contact_linkedin">LinkedIn</string>
+    <string name="find_me">Find Me</string>
+    <string name="about_app">About App</string>
+    <string name="phone_number">+6281234567890</string>
+    <string name="email_address">dimasnrfzi@email.com</string>
+    <string name="instagram_url">https://instagram.com/dimsumsams</string>
+    <string name="github_url">https://github.com/clopst</string>
+    <string name="linkedin_url">https://linkedin.com/in/dimasnrfzi</string>
+    <string name="map_location">Universitas Komputer Indonesia</string>
+    <string name="gmaps_geo">geo:-6.8866,107.6156?q=-6.8866,107.6156(UNIKOM)</string>
+    <string name="gmaps_web">https://maps.app.goo.gl/wgrxPa4aFnDdEjpU8</string>
+
+    <!-- About Dialog -->
+    <string name="about_title">About This App</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="about_desc">10123914\nIF12\n\nDibangun untuk memenuhi UTS mata kuliah Pemrograman Android\nUniversitas Komputer Indonesia</string>
+    <string name="about_close">Tutup</string>
 </resources>
